@@ -1,9 +1,9 @@
-import EventsNavigation from "../EventsNavigation";
+import MainNavigation from "../MainNavigation";
 
 function ErrorPage() {
   return (
     <>
-      <EventsNavigation />
+      <MainNavigation />
       <main>
         <h1>An error occurred!</h1>
         <p>Could not find this page!</p>
