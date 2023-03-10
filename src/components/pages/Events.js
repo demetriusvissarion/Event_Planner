@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import EventsList from "../components/EventsList";
+import EventsList from "../EventsList";
 
 function EventsPage() {
   const [isLoading, setIsLoading] = useState(false);
